@@ -1,0 +1,112 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+    header{
+        height: 100px;
+        background-color: #0082c3;
+    }
+
+    .container_body{
+        display: flex; /*tres important pour que les elements reste a l'interieur*/
+        height: 100%;
+        background-color: rgb(240, 240, 240);
+        padding: 10px;
+    }
+
+        nav{
+            height:100%;
+            width: 350px;
+            color: white;
+            background-color: #0082c3;
+            flex-wrap: wrap;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 20px;
+        }
+
+        main{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            width: 100%;
+            margin: 0 20px; /* 0 top and botom ---- 20 left and right*/
+            background-color: white;
+        }
+
+            .container_in_main1{
+                display: flex;
+            }
+        
+                .main_image{
+                    width: 400px;
+                    height: 400px;
+                }
+            
+                .main_description{
+                    margin-left: 50px;
+                    position: relative;
+                }
+        
+            .main_advantages{
+                position: relative;
+                margin-top: 50px;
+            }
+
+            .main_video{
+                margin-top: 50px;
+                align-self: center;
+            }
+
+        aside{
+            height:100%;
+            width: 150px;
+            color: red;
+            background-color: #0082c3;
+            flex-wrap: wrap;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 20px;
+        }
+
+    footer{
+        height: 100%;
+        background-color: black;
+        color: white;
+    }
+
+    
+
+    h1{
+        text-align: center;
+    }
+    
+    h2{
+        color: #0082c3;
+    }
+
+    .logo{
+        width: 300px;
+        position: relative; /*fixed quand on veut que le truc reste quand on scroll down par exemple // absolute=position par rapport a l'ecram // relative = postion par rapport a son parent*/
+    }
+
+    a:link {
+        color: white;
+    }
+    
+    a:visited {
+        color: white;
+    }
+    
+    a:hover {
+        color: black;
+    }
+
+    @media only screen and (max-width:500px) {
+        header{
+            height: 100px;
+            background-color: red;
+        }
+        
+
+    }
