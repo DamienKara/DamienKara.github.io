@@ -71,6 +71,7 @@ footer{
     display: flex;
     flex-direction: column;
     color: grey;
+    padding:20px;
 }
 
 .footer_social{
@@ -83,6 +84,30 @@ footer{
     margin-top: -10px;
     width:30px;
     height:30px;
-    margin-left:10px;
+    margin-right:10px;
 }
+
+hr{
+    width:100%;
+    size:1px;
+    margin-top:30px;
+}
+
+.footer_info{
+    display: flex;
+    font-size: 13px;
+}
+
+.user_agreement{
+    width:500px;
+}
+.copyright{
+    width:500px;
+    text-align: right;
+}
+
+.between_block{
+    width:100%;
+}
+
 
