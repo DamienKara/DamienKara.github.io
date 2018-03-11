@@ -1,3 +1,88 @@
 body{
     font-family: Arial, sans-serif;
 }
+
+header{
+    background-color: white;
+    display: flex;
+}
+
+    .logo_link{
+        position: relative;
+        width: 10%;
+        height: 65px;
+        margin-left: 20px;
+    }
+
+    .logo_yandex {
+        position: relative;
+        height: 65px;
+    }
+
+    .menu{
+        position: relative;
+        margin: 30px 0px 0px 25px;
+    }
+
+    a {
+        text-decoration-line: none;
+    }
+        a:link {
+            color: black;
+        }
+        a:visited {
+            color: black;
+        }
+        a:hover {
+            color: red;
+        }
+
+.intro_container{
+    display: flex;
+}
+    .intro_text{
+        position: relative;
+        padding-left:50px;
+        font-size: 16px;
+        background-color: #e7e4e4;
+    }
+    .intro_title{
+        font-size: 80px;
+    }
+    .intro_video{
+       position: relative;
+       height:800px;
+    }
+
+.math_container{
+    background-color:lightgray;
+    /* display: flex; */
+}    
+    .math_table{
+        width:100%;
+    }
+        .math_text{
+            text-align: center;
+            padding: 50px;
+        }
+
+footer{
+    background-color: #f3f0f0;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+
+.footer_social{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_icons{
+    position: relative;
+    margin-top: -10px;
+    width:30px;
+    height:30px;
+    margin-left:10px;
+}
+
